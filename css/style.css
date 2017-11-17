@@ -1115,11 +1115,6 @@ select:-webkit-autofill {
 .td__centr{
     text-align: center;
 }
-.header-prices {
-    background: url(../images/fon-prices.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .teh-issues{
     background: url(../images/teh-issues.jpg);
     background-size: contain;
@@ -1143,6 +1138,29 @@ select:-webkit-autofill {
 }
 .header-krani{
     background: url('/images/img-kran1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-kvadrocikli{
+    background: url('/images/header-img-kvadrocikl.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img__kvadrocikl img{
+    width: 100%;
+}
+.header-snegohodi{
+    background: url('http://arctic-cat.su/wp-content/uploads/2015/05/Snegohodyi-dlya-glubokogo-snega.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.header-tehvoprosi{
+    background: url('http://mstroycenter.ru/building/uploads/2014/09/05.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.header-prices {
+    background: url(/images/fon-prices.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
