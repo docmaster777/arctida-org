@@ -131,7 +131,7 @@ p {
 }
 @media (max-width: 768px) {
     .navbar-brand img {} .navbar-default {
-      /*  background-color: #fff !important; */
+        background-color: #fff !important; 
     }
 }
 .navbar-default .navbar-nav>.active>a,
@@ -141,9 +141,9 @@ p {
     color: #f39c12;
 }
 .header {
-    background: url(../images/home.jpg);
+/*    background: url(../images/home.jpg);
     background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 .header .section_overlay {
     background-color: rgba(33, 33, 33, .75);
@@ -1131,4 +1131,18 @@ select:-webkit-autofill {
 }
 .logo__teh{
     margin-top: -92px;
+}
+.samohodnaya-tehnika{
+    background: url('/images/samohodnaya-tehnika.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img__spec-tehnika img{
+    width: 75%;
+    height: auto;
+}
+.header-krani{
+    background: url('/images/img-kran1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
