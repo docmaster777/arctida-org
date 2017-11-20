@@ -90,6 +90,15 @@ p {
 .navbar-brand {
     padding: 9px 15px;
 }
+.navbar-header{
+    width: 100%;
+}
+.navbar-header p{
+    color: #f39c12;
+    margin: 19px 0 0 0;
+    font-size: 1.5rem;
+    font-family: 'verdana', sans-serif;
+}
 @media(min-width:768px) {
     .navbar-default {
         background-color: transparent;
@@ -130,8 +139,12 @@ p {
     }
 }
 @media (max-width: 768px) {
-    .navbar-brand img {} .navbar-default {
-        background-color: #fff !important; 
+    .navbar-brand img { width: 50%;} .navbar-default {
+        background-color: rgba(59, 59, 59, 0.7) !important; 
+
+    }
+    .navbar-brand{
+        width: 74%;
     }
 }
 .navbar-default .navbar-nav>.active>a,
@@ -177,7 +190,8 @@ p {
     font-size: 35px;
     font-weight: 300;
     line-height: 45px;
-    padding-top: 30px
+    padding-top: 30px;
+    text-align: center;
 }
 .home_text p {
     color: #fff;
@@ -185,6 +199,7 @@ p {
     line-height: 28px;
     margin-top: 0px;
     font-weight: 300;
+    text-align: center;
 }
 .download-btn {
     margin-top: 90px;
@@ -306,7 +321,10 @@ tuor:visited {
 .single_about_area:hover div i {
     color: #f39c12;
 }
-.about_phone img {} @media (min-width: 991px) and (max-width: 1200px) {
+.about_phone img {
+width: 70%;
+    }
+     @media (min-width: 991px) and (max-width: 1200px) {
     .about_phone img {
         margin-top: 184px;
         width: 80%;
@@ -879,6 +897,9 @@ div.carousel-inner .item img {
 #message {
     height: 117px;
     resize: none;
+}
+.img_2{
+  width: 15%;  
 }
 /*---------------------------------------
    SECTION SUBSCRIBE              
