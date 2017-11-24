@@ -84,6 +84,16 @@ p {
     height: 0px;
     margin: 0px;
 }
+.header__contact h3{
+    color: #f39c12;
+}
+.header__contact{
+    margin-bottom: 10px;
+}
+.header__contact p{
+    color: #f39c12;
+    font-family: 'verdana', sans-serif;
+}
 .navbar {
     margin-top: -150px
 }
@@ -203,7 +213,7 @@ p {
 }
 .download-btn {
     margin-top: 90px;
-    margin-bottom: 50px
+    margin-bottom: 10px;
 }
 .home-btn,
 .home-btn:focus,
